@@ -1,0 +1,205 @@
+
+#header
+{
+	margin-left: 300px;
+	width: 1000px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a7cece;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+  width: 995px;
+  margin-left: 300px;
+  margin-right:370px;
+  border: solid black;
+}
+
+.nav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.iml, .sms, .pass, .logout, .bio {
+  float: left;
+  overflow: hidden;
+}
+
+.logout {
+	float: right;
+}
+
+.iml .imlb, .sms .smsb, .pass .passb, .logout .logb, .bio .biob {
+  font-size: 16px;  
+  border: thin solid white;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #333;
+  font-family: inherit;
+  margin: 0;
+}
+
+.nav a:hover, .pass:hover .passb, .sms:hover .smsb, .iml:hover .imlb, .bio:hover .biob {
+  background-color: red;
+}
+
+ .logout:hover .logb {
+	 opacity: 0.6;
+ }
+
+.pass-content, .sms-content, .iml-content, .logout-content,  .bio-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.pass-content a, .iml-content a, .sms-content a, .logout-content a,  .bio-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.pass-content a:hover, .sms-content a:hover, .iml-content a:hover, .logout-content a:hover,  .bio-content a:hover {
+  background-color: #ddd;
+}
+
+
+.pass:hover .pass-content, .iml:hover .iml-content, .sms:hover .sms-content, .logout:hover .logout-content,  .bio:hover .bio-content  {
+  display: block;
+}
+
+
+#sidebar{
+	background-color: #58b04f;
+	margin-top: 5px;
+	width: 280px;
+	margin-left: 300px;
+	margin-right: 0px;
+	border: solid black;
+}
+
+#sideb{
+	margin-bottom: 10px;
+}
+
+#pic1{
+	border: solid black thin;
+	width: 150px;
+	margin-left: 75px;
+}
+
+#data{
+	margin: 0px;
+	margin-left: 20px;
+	padding: 0px;
+}
+
+#regno{
+	text-align: left;
+	margin-left: 105px;
+}
+
+#b1{
+	font-size: 20px;
+	padding-right: 30px;
+}
+
+
+#b11{
+	padding-right: 22px;
+	margin-left: 0px;
+}
+
+
+#b2{
+	font-size: 20px;
+	padding-right: 135px;
+}
+
+#b21{
+	padding-right: 22px;
+	margin-left: 0px;
+}
+
+
+#b3{
+	font-size: 20px;
+	padding-right: 67px;
+}
+
+
+#b31{
+	padding-right: 22px;
+	margin-left: 0px;
+}
+
+#thought,#health {
+	width: 270px;
+	margin-left: 300px;
+	margin-top: 10px;
+	border: solid black thin;
+	padding: 5px;
+	font-size: 18px;
+	font-family: cursive;
+	border: solid black;
+}
+
+
+#tt{
+	margin: 0px;
+	padding: 0px;
+	width: 700px;
+	float: right;
+	border: solid black;
+	margin-right: 200px;
+	margin-top: 5px;
+	margin-bottom: 100px;
+	background-color: #ffffff;
+	
+}
+
+table {
+  font-family: cursive;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 42px;
+
+}
+
+td, th {
+  border: 3px solid #1a53ff;
+  padding: 8px;
+}
+
+#footer{
+	margin-left: 340px;
+	font-size: 100%;
+	line-height: normal;
+	text-align: center;
+	margin-top: 30px;
+	clear: right; 
+	margin-right: 300px;
+}
+	
+
+
+
+
+
+
+

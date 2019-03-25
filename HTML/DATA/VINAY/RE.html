@@ -1,0 +1,46 @@
+<doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="RE.css" >
+<title>Password Reconfirmation</title>
+</head>
+<body>
+<h2> RECONFIRM - PASSWORD </h2>
+
+<form>
+<div class="info">
+
+<label for="psw"><b>RE-ENTER PASSWORD : </b></label>
+<input id="pass1" type="password" placeholder="Please Re-Enter Password (SAME AS USERNAME)" name="psw" required>
+
+<button type="submit" onclick="check(this.form)">SUBMIT</button>
+
+</form>
+
+</div>
+
+<script>
+var a="11803021";
+function check(form)
+{
+	if(form.psw.value==a)
+	{
+		window.open('dummy.html');
+	}
+	
+	else
+	{
+		alert("WRONG PASSWORD");
+	}
+}
+</script>
+<div id="footer">
+    <p>
+      &copy; 2019, STUDENT MANAGEMENT SYSTEM<br />
+      All trademarks and registered trademarks appearing on this site are 
+      the property of their respective owners.
+    </p>
+	</div>
+</body>
+</html>

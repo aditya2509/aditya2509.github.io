@@ -1,0 +1,68 @@
+<doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="O.css" >
+<title>LOGIN PAGE</title>
+</head>
+<body>
+<h2> LOGIN </h2>
+
+<form>
+<div class="info">
+
+<label for="uname"><b>USERNAME : </b></label>
+<input type="text" placeholder="Enter Username ( TRY -> 11804025 / 11803021 / 11808412 / 11815482 )" name="uname" required>
+
+<label for="psw"><b>PASSWORD : </b></label>
+<input id="pass1" type="password" placeholder="Enter Password (SAME AS USERNAME)" name="psw" required>
+
+<button type="submit" onclick="check(this.form)">LOGIN</button>
+
+<label>
+<input type="checkbox" checked="unchecked" name="logged">Keep me signed in</label>
+
+</form>
+
+</div>
+
+<script>
+function check(form)
+{
+	if(form.uname.value== "11804025" && form.psw.value=="11804025")
+	{
+		window.open('DATA/ADITYA/P.html');
+	}
+	
+	else if(form.uname.value== "11803021" && form.psw.value=="11803021")
+	{
+		window.open('DATA/VINAY/Q.html');
+	}
+	
+	else if(form.uname.value== "11808412" && form.psw.value=="11808412")
+	{
+		window.open('DATA/BHAVYA/P.html');
+	}
+	
+	
+	else if(form.uname.value== "11815482" && form.psw.value=="11815482")
+	{
+		window.open('DATA/21/P.html');
+	}
+	
+	
+	else
+	{
+		alert("WRONG PASSWORD");
+	}
+}
+</script>
+<div id="footer">
+    <p>
+      &copy; 2019, STUDENT MANAGEMENT SYSTEM<br />
+      All trademarks and registered trademarks appearing on this site are 
+      the property of their respective owners.
+    </p>
+	</div>
+</body>
+</html>
